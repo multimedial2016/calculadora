@@ -1,2 +1,2 @@
 # Calculadora HTML CSS JS
-![](root/img/screen-calculadora.png)
+![](./docs/img/screen-calculadora.png)

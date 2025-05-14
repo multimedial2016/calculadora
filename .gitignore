@@ -1,0 +1,34 @@
+# Node modules (si usas Tailwind con Node.js)
+node_modules/
+
+# Archivos de salida de build (ajusta según tu configuración)
+src/
+
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de lock
+package-lock.json
+yarn.lock
+
+# Tailwind CSS output (ajusta según tu configuración)
+input.css
+output.css
+
+# Otros archivos temporales
+*.tmp
+*.log
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local

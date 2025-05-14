@@ -1,0 +1,18 @@
+# Normaliza los finales de línea para todos los archivos de texto
+* text=auto
+
+# Asegura que los archivos HTML, CSS y JS tengan finales de línea LF en el repositorio
+*.html text eol=lf
+*.css text eol=lf
+*.js  text eol=lf
+
+# Trata imágenes y fuentes como binarios
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary

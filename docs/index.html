@@ -9,10 +9,10 @@
 <body class="h-screen flex justify-center items-center bg-black">
     <div class="h-96 w-96 bg-white rounded-md shadow-xs ">
         <div class="grid grid-cols-1">
-            <h1 class="text-2xl text-blue-700 p-2.5 font-bold">CALCULADORA</h1>
-            <input class="block p-2 text-2xl text-gray-900 bg-gray-400 rounded-md ml-2.5 mr-2.5 text-right" type="text" name="display-cal" id="display-cal" value="0" readonly>
+            <h1 class="text-2xl text-blue-700 p-2.5 font-bold font-roboto">CALCULADORA</h1>
+            <input class="block p-2 text-2xl text-gray-900 bg-gray-400 rounded-md ml-2.5 mr-2.5 text-right font-digital" type="text" name="display-cal" id="display-cal" value="0" readonly>
         </div>
-        <div class="grid grid-cols-4 gap-3 mt-2.5 pl-2.5 pr-2.5">
+        <div class="grid grid-cols-4 gap-3 mt-2.5 pl-2.5 pr-2.5 font-roboto">
             <!--Row1-->
             <button class="p-2 text-white bg-gray-700 hover:bg-gray-600 focus:outline-2 focus:outline-offset-2 focus:outline-gray-500 active:bg-gray-700 rounded-md shadow-xs hover:scale-110 transition delay-150 duration-200 ease-in-out" type="button" onclick="clearAll()">AC</button>
             <button class="p-2 text-white bg-red-500 hover:bg-red-600 focus:outline-2 focus:outline-offset-2 focus:outline-red-500 active:bg-red-700 rounded-md shadow-xs hover:scale-110 transition delay-150 duration-200 ease-in-out" type="button" onclick="deleteLast()">DEL</button>
@@ -29,7 +29,7 @@
             <button class="p-2 text-white bg-gray-700 hover:bg-gray-600 focus:outline-2 focus:outline-offset-2 focus:outline-gray-500 active:bg-gray-700 rounded-md shadow-xs hover:scale-110 transition delay-150 duration-200 ease-in-out" type="button" onclick="appendToDisplay('6')">6</button>
             <button class="p-2 text-white bg-blue-500 hover:bg-blue-600 focus:outline-2 focus:outline-offset-2 focus:outline-blue-500 active:bg-blue-700 rounded-md shadow-xs hover:scale-110 transition delay-150 duration-200 ease-in-out row-span-2" type="button" onclick="appendToDisplay('+')">+</button>
             <!--Row4-->
-            <button class="p-2 text-white bg-gray-700 hover:bg-gray-600 focus:outline-2 focus:outline-offset-2 focus:outline-gray-500 active:bg-gray-700 rounded-md shadow-xs hover:scale-110 transition delay-150 duration-200 ease-in-out" type="button">3</button>
+            <button class="p-2 text-white bg-gray-700 hover:bg-gray-600 focus:outline-2 focus:outline-offset-2 focus:outline-gray-500 active:bg-gray-700 rounded-md shadow-xs hover:scale-110 transition delay-150 duration-200 ease-in-out" type="button" onclick="appendToDisplay('3')">3</button>
             <button class="p-2 text-white bg-gray-700 hover:bg-gray-600 focus:outline-2 focus:outline-offset-2 focus:outline-gray-500 active:bg-gray-700 rounded-md shadow-xs hover:scale-110 transition delay-150 duration-200 ease-in-out" type="button" onclick="appendToDisplay('2')">2</button>
             <button class="p-2 text-white bg-gray-700 hover:bg-gray-600 focus:outline-2 focus:outline-offset-2 focus:outline-gray-500 active:bg-gray-700 rounded-md shadow-xs hover:scale-110 transition delay-150 duration-200 ease-in-out" type="button" onclick="appendToDisplay('1')">1</button>
             <button class="p-2 text-white bg-gray-700 hover:bg-gray-600 focus:outline-2 focus:outline-offset-2 focus:outline-gray-500 active:bg-gray-700 rounded-md shadow-xs hover:scale-110 transition delay-150 duration-200 ease-in-out" type="button" onclick="appendToDisplay('00')">00</button>

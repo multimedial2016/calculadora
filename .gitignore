@@ -1,9 +1,6 @@
 # Node modules (si usas Tailwind con Node.js)
 node_modules/
 
-# Archivos de salida de build (ajusta según tu configuración)
-src/
-
 # Archivos de configuración de VS Code
 .vscode/
 
@@ -22,7 +19,6 @@ yarn.lock
 
 # Tailwind CSS output (ajusta según tu configuración)
 input.css
-output.css
 
 # Otros archivos temporales
 *.tmp

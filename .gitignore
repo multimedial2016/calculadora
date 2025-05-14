@@ -18,7 +18,7 @@ package-lock.json
 yarn.lock
 
 # Tailwind CSS output (ajusta según tu configuración)
-input.css
+#input.css
 
 # Otros archivos temporales
 *.tmp

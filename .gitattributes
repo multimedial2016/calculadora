@@ -1,6 +1,10 @@
 # Normaliza los finales de línea para todos los archivos de texto
 * text=auto
 
+# Para que los .bat usen CRLF
+*.bat text eol=crlf
+
+
 # Asegura que los archivos HTML, CSS y JS tengan finales de línea LF en el repositorio
 *.html text eol=lf
 *.css text eol=lf

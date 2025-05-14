@@ -31,7 +31,6 @@ function appendToDisplay(value) {
     resultDisplay = false
 }
 
-
 function calculateResult() {
     let currentDisplay = getDisplay()
     try {
@@ -42,4 +41,18 @@ function calculateResult() {
         setDisplay("ERROR")
         resultDisplay = true
     }
+}
+
+function deleteLast() {
+    let current = getDisplay();
+    if (current.length > 1) {
+        setDisplay(current.slice(0, -1));
+    } else {
+        setDisplay('0');
+    }
+}
+
+function clearAll() {
+  setDisplay('0');
+  resultDisplaye = false;
 }
